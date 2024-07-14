@@ -1,0 +1,3 @@
+bench_info([bench_access_operation_count_variation, orderedset, rannumbers10, [10000, 0, on], steps_linear, [0, 100000, 10000], 5, '..\\results\\BenchOrderedSet1_10_100\\', 'MissPercentage0_DsSize10000_OpCount10000to100000']).
+bench_info([bench_access_operation_count_variation, orderedset10, rannumbers10, [10000, 0, on], steps_linear, [0, 100000, 10000], 5, '..\\results\\BenchOrderedSet1_10_100\\', 'MissPercentage0_DsSize10000_OpCount10000to100000']).
+bench_info([bench_access_operation_count_variation, orderedset100, rannumbers10, [10000, 0, on], steps_linear, [0, 100000, 10000], 5, '..\\results\\BenchOrderedSet1_10_100\\', 'MissPercentage0_DsSize10000_OpCount10000to100000']).

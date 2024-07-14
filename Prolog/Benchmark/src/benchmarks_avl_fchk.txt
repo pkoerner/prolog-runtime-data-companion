@@ -1,0 +1,5 @@
+bench_info([bench_insert_operation_count_variation, avl, rannumbers, [10, on], steps_linear, [0, 1000000, 5000], 5, '..\\results\\BenchInsert_Avl_fchk_OperationCount\\', 'OpCount0_to1000000_DSSize10']).
+bench_info([bench_insert_data_structure_size_variation, avl, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_Avl_fchk_DataStructureSize\\', 'OpCount1000000_DSSize1to100']).
+
+bench_info([bench_insert_operation_count_variation, avl_fchk, rannumbers, [10, on], steps_linear, [0, 1000000, 5000], 5, '..\\results\\BenchInsert_Avl_fchk_OperationCount\\', 'OpCount0_to1000000_DSSize10']).
+bench_info([bench_insert_data_structure_size_variation, avl_fchk, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_Avl_fchk_DataStructureSize\\', 'OpCount1000000_DSSize1to100']).

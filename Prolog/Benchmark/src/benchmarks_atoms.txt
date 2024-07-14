@@ -1,0 +1,65 @@
+bench_info([bench_access_operation_count_variation, avl, ranatoms, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, mutdict, ranatoms, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, blackboard, ranatoms, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, assertds, ranatoms, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, list, ranatoms, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, orderedset, ranatoms, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+
+bench_info([bench_access_data_structure_size_variation, avl, ranatoms, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, mutdict, ranatoms, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, blackboard, ranatoms, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, assertds, ranatoms, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, list, ranatoms, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, orderedset, ranatoms, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+
+bench_info([bench_access_data_structure_size_variation, avl, ranatoms, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, mutdict, ranatoms, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, blackboard, ranatoms, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, assertds, ranatoms, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, list, ranatoms, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, orderedset, ranatoms, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+
+bench_info([bench_access_miss_chance_variation, avl, ranatoms, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, ranatoms, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, blackboard, ranatoms, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, ranatoms, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, ranatoms, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, ranatoms, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+
+bench_info([bench_access_miss_chance_variation, avl, ranatoms, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, ranatoms, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, blackboard, ranatoms, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, ranatoms, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, ranatoms, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, ranatoms, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+
+bench_info([bench_access_miss_chance_variation, avl, ranatoms, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, ranatoms, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, blackboard, ranatoms, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, ranatoms, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, ranatoms, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, ranatoms, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Atoms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+
+bench_info([bench_insert_operation_count_variation, avl, ranatoms, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, mutdict, ranatoms, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, blackboard, ranatoms, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, assertds, ranatoms, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, list_without_duplicates, ranatoms, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, list, ranatoms, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, orderedset, ranatoms, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_Atoms\\', 'OpCount0to1000000_DSSize10000']).
+
+bench_info([bench_insert_data_structure_size_variation, avl, ranatoms, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, mutdict, ranatoms, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, blackboard, ranatoms, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, assertds, ranatoms, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, list_without_duplicates, ranatoms, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, list, ranatoms, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, orderedset, ranatoms, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_Atoms\\', 'OpCount1000000_DSSize1to100']).
+
+bench_info([bench_insert_data_structure_size_variation, avl, ranatoms, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, mutdict, ranatoms, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, blackboard, ranatoms, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, assertds, ranatoms, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, list_without_duplicates, ranatoms, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, list, ranatoms, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, orderedset, ranatoms, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Atoms\\', 'OpCount1000000_DSSize1to10000']).

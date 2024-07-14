@@ -1,0 +1,56 @@
+bench_info([bench_access_operation_count_variation, avl, rancomplex, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, mutdict, rancomplex, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, assertds, rancomplex, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, list, rancomplex, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, orderedset, rancomplex, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+
+bench_info([bench_access_data_structure_size_variation, avl, rancomplex, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, mutdict, rancomplex, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, assertds, rancomplex, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, list, rancomplex, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, orderedset, rancomplex, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+
+bench_info([bench_access_data_structure_size_variation, avl, rancomplex, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, mutdict, rancomplex, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, assertds, rancomplex, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, list, rancomplex, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, orderedset, rancomplex, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+
+bench_info([bench_access_miss_chance_variation, avl, rancomplex, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, rancomplex, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, rancomplex, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, rancomplex, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, rancomplex, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+
+bench_info([bench_access_miss_chance_variation, avl, rancomplex, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, rancomplex, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, rancomplex, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, rancomplex, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, rancomplex, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+
+bench_info([bench_access_miss_chance_variation, avl, rancomplex, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, rancomplex, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, rancomplex, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, rancomplex, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, rancomplex, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_ComplexTerms_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+
+bench_info([bench_insert_operation_count_variation, avl, rancomplex, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, mutdict, rancomplex, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, assertds, rancomplex, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, list_without_duplicates, rancomplex, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, list, rancomplex, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, orderedset, rancomplex, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount_ComplexTerms\\', 'OpCount0to1000000_DSSize10000']).
+
+bench_info([bench_insert_data_structure_size_variation, avl, rancomplex, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, mutdict, rancomplex, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, assertds, rancomplex, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, list_without_duplicates, rancomplex, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, list, rancomplex, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, orderedset, rancomplex, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to100']).
+
+bench_info([bench_insert_data_structure_size_variation, avl, rancomplex, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, mutdict, rancomplex, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, assertds, rancomplex, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, list_without_duplicates, rancomplex, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, list, rancomplex, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, orderedset, rancomplex, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_ComplexTerms\\', 'OpCount1000000_DSSize1to10000']).

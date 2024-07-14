@@ -1,0 +1,74 @@
+bench_info([bench_access_operation_count_variation, avl, rannumbers, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, mutarray, rannumbers, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, mutdict, rannumbers, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, blackboard, rannumbers, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, assertds, rannumbers, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, list, rannumbers, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_access_operation_count_variation, orderedset, rannumbers, [10000, 0, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchAccess_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+
+bench_info([bench_access_data_structure_size_variation, avl, rannumbers, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Integer\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, mutdict, rannumbers, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Integer\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, mutarray, rannumbers, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Integer\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, blackboard, rannumbers, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Integer\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, assertds, rannumbers, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Integer\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, list, rannumbers, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Integer\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, orderedset, rannumbers, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Integer\\', 'OpCount1000000_DSSize1to100']).
+
+bench_info([bench_access_data_structure_size_variation, avl, rannumbers, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, mutdict, rannumbers, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, mutarray, rannumbers, [1000000, 0, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchAccess_SmallDataStructures_Integer\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_access_data_structure_size_variation, blackboard, rannumbers, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, assertds, rannumbers, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, list, rannumbers, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_access_data_structure_size_variation, orderedset, rannumbers, [1000000, 0, on], steps_linear, [0, 10000, 100], 5, '..\\results\\BenchAccess_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+
+bench_info([bench_access_miss_chance_variation, avl, rannumbers10, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, rannumbers10, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutarray, rannumbers10, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, blackboard, rannumbers10, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, rannumbers10, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, rannumbers10, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, rannumbers10, [10000, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer\\', 'OpCount1000000_DSSize10000_MissChance0to100']).
+
+bench_info([bench_access_miss_chance_variation, avl, rannumbers10, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, rannumbers10, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutarray, rannumbers10, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, blackboard, rannumbers10, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, rannumbers10, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, rannumbers10, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, rannumbers10, [10, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_10\\', 'OpCount1000000_DSSize10_MissChance0to100']).
+
+bench_info([bench_access_miss_chance_variation, avl, rannumbers10, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutdict, rannumbers10, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, mutarray, rannumbers10, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, blackboard, rannumbers10, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, assertds, rannumbers10, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, list, rannumbers10, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+bench_info([bench_access_miss_chance_variation, orderedset, rannumbers10, [15, 1000000, on], steps_linear, [0, 100, 10], 5, '..\\results\\BenchAccess_MissChance_Integer_15\\', 'OpCount1000000_DSSize15_MissChance0to100']).
+
+bench_info([bench_insert_operation_count_variation, avl, rannumbers, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, mutdict, rannumbers, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, mutarray, rannumbers, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, blackboard, rannumbers, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, assertds, rannumbers, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, list_without_duplicates, rannumbers, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, list, rannumbers, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+bench_info([bench_insert_operation_count_variation, orderedset, rannumbers, [10000, on], steps_linear, [0, 1000000, 100000], 5, '..\\results\\BenchInsert_OperationCount\\', 'OpCount0to1000000_DSSize10000']).
+
+bench_info([bench_insert_data_structure_size_variation, avl, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, mutdict, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, mutarray, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, blackboard, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, assertds, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, list_without_duplicates, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, list, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures\\', 'OpCount1000000_DSSize1to100']).
+bench_info([bench_insert_data_structure_size_variation, orderedset, rannumbers, [1000000, on], steps_linear, [0, 100, 1], 5, '..\\results\\BenchInsert_SmallDataStructures\\', 'OpCount1000000_DSSize1to100']).
+
+bench_info([bench_insert_data_structure_size_variation, avl, rannumbers, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, mutdict, rannumbers, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, mutarray, rannumbers, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, blackboard, rannumbers, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, assertds, rannumbers, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, list_without_duplicates, rannumbers, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, list, rannumbers, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
+bench_info([bench_insert_data_structure_size_variation, orderedset, rannumbers, [1000000, on], steps_linear, [0, 10000, 1000], 5, '..\\results\\BenchInsert_BigDataStructures_Integer\\', 'OpCount1000000_DSSize1to10000']).
